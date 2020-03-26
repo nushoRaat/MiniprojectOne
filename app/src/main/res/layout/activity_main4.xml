@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlightblue"
+    tools:context=".Main4Activity">
+
+    <FrameLayout
+        android:layout_width="303dp"
+        android:layout_height="329dp"
+        android:layout_x="51dp"
+        android:layout_y="129dp">
+
+
+        <ImageView
+            android:id="@+id/anapa"
+            android:layout_width="match_parent"
+            android:layout_height="353dp"
+            app:srcCompat="@drawable/cmediimg" />
+
+        <ImageView
+            android:id="@+id/bnapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:srcCompat="@drawable/bmediimg" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/nameTocart"
+        android:layout_width="197dp"
+        android:layout_height="44dp"
+        android:layout_x="61dp"
+        android:layout_y="59dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Napa 500mg" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="320dp"
+        android:layout_height="88dp"
+        android:layout_x="44dp"
+        android:layout_y="475dp"
+        android:text="Napa is a paracetamol.It is indicated to take in fever,common cold,toothache,bodyache,myaglia and sprains."
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/cartButton"
+        android:layout_width="152dp"
+        android:layout_height="63dp"
+        android:layout_x="211dp"
+        android:layout_y="580dp"
+        android:background="@drawable/round_button"
+        android:text="Add To Cart"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/listButton"
+        android:layout_width="147dp"
+        android:layout_height="63dp"
+        android:layout_x="30dp"
+        android:layout_y="580dp"
+        android:background="@drawable/round_button"
+        android:text="Go To List"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/webbutton2"
+        android:layout_width="147dp"
+        android:layout_height="63dp"
+        android:layout_x="30dp"
+        android:layout_y="653dp"
+        android:background="@drawable/round_button"
+        android:text="For More info"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/gotoCart"
+        android:layout_width="153dp"
+        android:layout_height="63dp"
+        android:layout_x="211dp"
+        android:layout_y="652dp"
+        android:background="@drawable/round_button"
+        android:text="View Cart"
+        android:textColor="#ffffff" />
+
+</AbsoluteLayout>

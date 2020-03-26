@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbg"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="181dp"
+        android:layout_height="58dp"
+        android:layout_x="46dp"
+        android:layout_y="66dp"
+        android:text="Your orders:"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/atext"
+            android:layout_width="18dp"
+            android:layout_height="match_parent"
+            android:layout_x="46dp"
+            android:layout_y="156dp"
+            android:text="1."
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/amediname"
+            android:layout_width="394dp"
+            android:layout_height="53dp"
+            android:layout_x="46dp"
+            android:layout_y="156dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/btext"
+            android:layout_width="18dp"
+            android:layout_height="46dp"
+            android:layout_x="46dp"
+            android:layout_y="156dp"
+            android:text="2."
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bmediname"
+            android:layout_width="394dp"
+            android:layout_height="match_parent"
+            android:layout_x="46dp"
+            android:layout_y="156dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/ctext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="46dp"
+            android:layout_y="156dp"
+            android:text="3."
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cmediname"
+            android:layout_width="394dp"
+            android:layout_height="48dp"
+            android:layout_x="46dp"
+            android:layout_y="156dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dtext"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_x="46dp"
+            android:layout_y="156dp"
+            android:text="4."
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dmediname"
+            android:layout_width="394dp"
+            android:layout_height="42dp"
+            android:layout_x="46dp"
+            android:layout_y="156dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/confirmbutton"
+        android:layout_width="177dp"
+        android:layout_height="76dp"
+        android:layout_x="118dp"
+        android:layout_y="628dp"
+        android:background="@drawable/round_button"
+        android:text="Confirm Order"
+        android:textColor="#ffffff" />
+</TableLayout>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbgdeep"
+    tools:context=".Main3Activity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+
+        <TextView
+            android:id="@+id/mediname"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mediprice"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Price"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/add"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="View"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+
+        <TextView
+            android:id="@+id/meditwo"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorbglight"
+            android:gravity="center"
+            android:text="1. Napa"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tksecond"
+            android:layout_width="67dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@color/colorbglight"
+            android:gravity="center"
+            android:text="10.00Tk"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buyone"
+            android:layout_width="97dp"
+            android:layout_height="54dp"
+
+            android:background="@drawable/bgbutton" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+
+        <TextView
+            android:id="@+id/medithree"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2. Tofen"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tkthird"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="30.00Tk"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buytwo"
+            android:layout_width="94dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bgbutton" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+
+        <TextView
+            android:id="@+id/medifour"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@color/colorbglight"
+            android:gravity="center"
+            android:text="3. BROFEX"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tkfour"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorbglight"
+            android:gravity="center"
+            android:text="25.00Tk"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buythree"
+            android:layout_width="95dp"
+            android:layout_height="61dp"
+            android:background="@drawable/bgbutton" />
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+
+        <TextView
+            android:id="@+id/medifive"
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="4. COLDFLU"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tkfive"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="23.00Tk"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buyfive"
+            android:layout_width="86dp"
+            android:layout_height="54dp"
+            android:background="@drawable/bgbutton" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+
+        <TextView
+            android:id="@+id/medisix"
+            android:layout_width="wrap_content"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@color/colorbglight"
+            android:gravity="center"
+            android:text="5. DEPHAN"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tksix"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorbglight"
+            android:gravity="center"
+            android:text="20.00Tk"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buysix"
+            android:layout_width="95dp"
+            android:layout_height="54dp"
+            android:background="@drawable/bgbutton" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+
+        <TextView
+            android:id="@+id/mediseven"
+            android:layout_width="wrap_content"
+            android:layout_height="79dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="6. TUSSIDEX"
+            android:textSize="18dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tkseven"
+            android:layout_width="wrap_content"
+            android:layout_height="79dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="24.77Tk"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buyseven"
+            android:layout_width="95dp"
+            android:layout_height="56dp"
+            android:background="@drawable/bgbutton" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+
+        <TextView
+            android:id="@+id/medieight"
+            android:layout_width="wrap_content"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@color/colorbglight"
+            android:gravity="center"
+            android:text="7. Ace"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tkeight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorbglight"
+            android:gravity="center"
+            android:text="12.00Tk"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buyeight"
+            android:layout_width="95dp"
+            android:layout_height="54dp"
+            android:background="@drawable/bgbutton" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+
+        <TextView
+            android:id="@+id/medinine"
+            android:layout_width="wrap_content"
+            android:layout_height="79dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="8. Acifix"
+            android:textSize="18dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tknine"
+            android:layout_width="wrap_content"
+            android:layout_height="79dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="15.46Tk"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buynine"
+            android:layout_width="95dp"
+            android:layout_height="56dp"
+            android:background="@drawable/bgbutton" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+
+        <TextView
+            android:id="@+id/mediten"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorbglight"
+            android:gravity="center"
+            android:text="9. Vita-c"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tkten"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorbglight"
+            android:gravity="center"
+            android:text="17.00Tk"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buyten"
+            android:layout_width="95dp"
+            android:layout_height="54dp"
+            android:background="@drawable/bgbutton" />
+    </TableRow>
+
+
+
+
+</TableLayout>
