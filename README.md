@@ -1,6 +1,4 @@
 # Pharmi-Online-medicine-shop-
-online shop for purcessing medicine.
+Online shop for purchassing medicine.
 
-Id:180104032
-
-Lab group:A2
+UI design of a very basic ecommerce app.
